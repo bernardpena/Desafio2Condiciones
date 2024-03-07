@@ -24,7 +24,7 @@ body {
 }
 
 img {
-    width: 300px;
+    width: 350px;
 }
 
 img:hover{
@@ -92,7 +92,7 @@ img:hover{
 .contenedor3{
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 200px;
     width: 400px;
     border: solid 2px;
     margin: 0 auto;
