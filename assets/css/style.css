@@ -5,7 +5,7 @@
 :root{
     background-color: Canvas;
     color: CanvasText;
-    color-scheme: light;
+    color-scheme: dark;
 }
 
 body {
@@ -25,6 +25,10 @@ body {
 
 img {
     width: 300px;
+}
+
+img:hover{
+    cursor: pointer;
 }
 
 .contenedor2{
@@ -64,7 +68,21 @@ img {
 #verificar{
     display: flex;
     align-items: center;
+}
 
+.ingreso1 input{
+    display: flex;
+    margin: 0 auto;
+}
+
+.ingreso2 input{
+    display: flex;
+    margin: 0 auto;
+}
+
+.ingreso3 input{
+    display: flex;
+    margin: 0 auto;
 }
 
 .separador2{

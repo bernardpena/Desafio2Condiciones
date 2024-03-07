@@ -6,7 +6,7 @@ function resaltar() {
 
   if (boderactivo == 1) {
     border.style.borderStyle = "solid";
-    border.style.borderColor = "#E74C3C";
+    border.style.borderColor = "#f44336";
     border.style.borderWidth = "2px";
     border.style.borderRadius = "50%";
     boderactivo = 0;
