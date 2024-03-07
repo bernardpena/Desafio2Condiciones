@@ -8,27 +8,50 @@
 </head>
 <body>
     <!-- Contenedor principal -->
-    <div class="contenedor1">
+    <section class="contenedor1">
         <h1>Ejercicio Borde</h1>
         <img  id="imagen" src="assets/img/photo_2023-03-20_09-45-29.jpg" alt="Libélula" onclick="resaltar()">
-    </div>
+    </section>
 
-    <div class="contenedor2">
-            <h1>Puedes llevar hasta 10 Stickers en Total</h1>
-        
-        <div class="stick" >
-            <img  class="imgStick" src="assets/img/Stickers1.jpg" alt="stickers 1">
-            <input type="text">
-        </div>
-        <div class="stick" >
-            <img  class="imgStick" src="assets/img/Stickers2.jpg" alt="stickers 2">
-            <input type="text">
-        </div>
-        <div class="stick" >
-            <img  class="imgStick" src="assets/img/Stickers3.jpg" alt="stickers 3">
-            <input type="text">
-        </div>
-    </div>
+    <section2 class="contenedor2">
+        <h1>Puedes llevar hasta 10 Stickers en Total</h1>
+            <div class="stick">
+                <img class="imgStick" src="assets/img/Stickers1.jpg" alt="stickers 1">
+                <div>
+                    <input id="ingreso1" type="text">
+                </div>
+    
+            </div>
+            <div class="stick">
+                <img class="imgStick" src="assets/img/Stickers2.jpg" alt="stickers 2">
+                <div>
+                    <input id="ingreso2" type="text">
+                </div>
+    
+            </div>
+            <div class="stick">
+                <img class="imgStick" src="assets/img/Stickers3.jpg" alt="stickers 3">
+                <div >
+                    <input id="ingreso3" type="text">
+                </div>
+            </div>
+        </section2>
+
+            <div class="verificar" >
+                <span></span>
+                <button id="verificar" onclick="verificar()">Verificar</button>
+            </div>
+
+
+        <section3 class="option">
+            <div class="contenedor3">
+
+            </div>
+
+
+        </section>
+    
+    
 
     
     <script src="assets/js/imagen.js" >
