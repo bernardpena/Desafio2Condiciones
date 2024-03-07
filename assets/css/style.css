@@ -55,7 +55,6 @@ img {
 
 .verificar{
     display: flex;
-    /* height: 100%; */
     align-items: center;
     flex-direction: column;
     gap: 10px;
@@ -65,16 +64,45 @@ img {
 #verificar{
     display: flex;
     align-items: center;
+
+}
+
+.separador2{
+    margin-bottom: 30px;
 }
 
 .contenedor3{
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
     width: 400px;
-    
-    border: solid 1px;
-
+    border: solid 2px;
+    margin: 0 auto;
 }
 
+.contenedor3 h1{
+    text-align: center;
+    margin: 20px 0px;
+}
+.contenedor3 div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+select{
+    border-radius: 5px;
+    width: 40px;
+    height: 25px;
+    margin-bottom: 30px;
+}
+
+.password span{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
 
 
 

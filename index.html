@@ -12,7 +12,7 @@
         <h1>Ejercicio Borde</h1>
         <img  id="imagen" src="assets/img/photo_2023-03-20_09-45-29.jpg" alt="Libélula" onclick="resaltar()">
     </section>
-
+    <hr>
     <section2 class="contenedor2">
         <h1>Puedes llevar hasta 10 Stickers en Total</h1>
             <div class="stick">
@@ -42,20 +42,34 @@
                 <button id="verificar" onclick="verificar()">Verificar</button>
             </div>
 
+            <hr class="separador2">
 
         <section3 class="option">
             <div class="contenedor3">
+                <h1>Ingresa el Password</h1>
 
+                <div class="pass" >
+                    <select name="opciones" id="opciones1">
+                        <option id="clave1" >0</option>
+                    </select>
+                    <select name="opciones" id="opciones2">
+                        <option id="clave2" >0</option>
+                    </select>
+                    <select name="opciones" id="opciones3">
+                        <option id="clave3" >0</option>
+                    </select>
+                </div>
+                <div class="btn">
+                    <button onclick="password()">ingresar</button>
+                </div>
+                <div class="password">
+                    <span id="correcto"></span>
+                </div>
             </div>
-
-
         </section>
     
     
-
-    
-    <script src="assets/js/imagen.js" >
-        
+    <script src="assets/js/imagen.js"></script>
     </script>
 </body>
 </html>
